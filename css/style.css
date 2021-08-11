@@ -1,0 +1,585 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+}
+
+
+/* navigation part___ */
+
+nav{
+    width: 100%;
+    height: 4.5vw;
+    background-color: #7952b3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* nav left side part_____ */
+
+.nav__left-side{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.nav__left-side ul{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav__left-side ul li:hover{
+    color: #fff;
+}
+
+.nav__left-side ul li{
+    margin-left: 17px;
+    color: #eaeaea;
+}
+
+.nav__left-side img{
+    width: 55px;
+    height: 55px;
+    filter: brightness(120%);
+}
+
+
+/* nav right side part____ */
+
+.nav__right-side{
+    width: 20%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.nav__right-side img{
+    width: 20px;
+    height: 20px;
+   
+}
+
+.nav__right-side button{
+    width: 7.5vw;
+    height: 2.8vw;
+    font-size: 15px;
+    cursor: pointer;
+    color: gold;
+    background-color: transparent;
+    border: 1px solid gold;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.nav__right-side button:hover{
+    background-color: gold;
+    color: black;
+}
+
+
+/* header part__________ */
+
+header{
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* header left side part_____ */
+
+.header__left-side{
+    width: 56%;
+    height: 26vw;
+    margin-top: 45px;
+    margin-left: 82px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.header__left-side h1{
+    font-size: 63px;
+    font-weight: lighter;
+    line-height: 80px;
+}
+
+
+.header__left-side p{
+    font-size: 23px;
+    margin-top: 20px;
+    margin-left: 10px;
+    line-height: 45px;
+}
+
+
+/* button part________ */
+
+.button{
+    width: 27vw;
+    height: 8vw;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button button{
+    width: 12vw;
+    height: 4.3vw;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid #000;
+    /* background-color: #7952b3; */
+    /* border: none; */
+}
+
+.btn1{
+    background-color: #7952b3;
+    border-color: #7952b3;
+    font-weight: bolder;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn1:hover{
+    background-color: #593493;
+}
+
+/* btn 2 part____ */
+
+.btn2{
+    border: 1px solid #000;
+    background-color: transparent;
+    transition: 0.4s;
+    color: #a49494;
+}
+
+.btn2:hover{
+    background-color: #a49494;
+    color: white;
+}
+
+
+/* text part___________ */
+
+.text p{
+    font-size: 15px;
+}
+
+.text a{
+    margin-left: 10px;
+    color: #a09292;
+}
+
+
+/* header right side part____ */
+
+
+.header__right-side{
+    width: 58%;
+    height: 20vw;
+    display: flex;
+    align-items: center;
+}
+
+.header__right-side img{
+    width: 45vw;
+    height: 27vw;
+    margin-top: 133px;
+}
+
+
+/* part 2 box part_____________ */
+
+.box-div{
+    width: 30vw;
+    height: 10vw;
+    background-color: #f2f2f2;
+    /* border: 2px solid red; */
+    margin-top: 17%;
+    padding: 5px;
+    margin-left: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image img{
+    width: 10vw;
+    height: 8vw;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.box-text{
+    margin-left: 20px;
+    margin-top: -51px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+
+/* second part________ */
+
+
+/* main div  */
+
+.install{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* install left side part_____ */
+
+
+.install__left-side{
+    width: 40%;
+    height: 39vw;
+    /* background-color: red; */
+    
+}
+
+.install__left-side img{
+    width: 60px;
+    height: 65px;
+    
+}
+
+.install__left-side h1{
+    font-weight: lighter;
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+
+.install__left-side p{
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+
+.install__left-side button{
+    width: 18vw;
+    height: 3.5vw;
+    margin-top: 30px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid blue;
+    cursor: pointer;
+    color: blue;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+
+.install__left-side button:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+/* install right side part______ */
+
+
+.install__right-side{
+    width: 40%;
+    height: 25vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-copy,.second-copy{
+    width: 43vw;
+    height: 5.2vw;
+    background-color: #f8f9fa;
+    padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.first-copy p,.second-copy p{
+    font-size: 16px;
+}
+
+
+.first-copy button,.second-copy button{
+    width: 3.5vw;
+    height: 2vw;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #000;
+    transition: 0.2s;
+}
+
+.first-copy button:hover,.second-copy button:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+/* js deliver part____________ */
+
+
+.js-deliver{
+    width: 100%;
+    height: 45vw;
+
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+
+/* js deliver left side part_____ */
+
+
+
+.js-deliver__left-side{
+    width: 40%;
+    height: 20vw;
+    /* background-color: red; */
+}
+
+
+.js-deliver__left-side img{
+    width: 60px;
+    height: 60px;
+}
+
+.js-deliver__left-side h1{
+    font-size: 49px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.js-deliver__left-side p{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight:lighter;
+}
+
+
+.js-deliver__left-side button,.boostrap__left-side button,.offical__left-side button{
+    width: 13.8vw;
+    height: 3.8vw;
+    border-radius: 4px;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: blue;
+    border: 1px solid blue;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+
+.js-deliver__left-side button:hover,.boostrap__left-side button:hover,.offical__left-side button:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+
+/* js deliver right side part________ */
+
+
+.js-deliver__right-side{
+    width: 40%;
+    height: 30vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+/* two biox part___________ */
+
+
+.first-box,.second-box{
+    width: 40vw;
+    height: 7.5vw;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+    overflow-y: hidden;
+}
+
+
+.first-box h4,.second-box h4{
+    font-weight: lighter;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+
+.first-box p,.second-box p{
+    font-size: 15px;
+    line-height: 40px;
+    display: flex;
+    padding: 20px;
+}
+
+
+/* boostrap div part*/
+
+
+.boostrap-div{
+    width: 100%;
+    height: 45vw;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* boostrap left side part_____________ */
+
+
+.boostrap__left-side{
+    width: 40%;
+    height: 30vw;
+    /* background-color: red; */
+}
+
+
+.boostrap__left-side img,.offical__left-side img{
+    width: 60px;
+    height: 60px;
+}
+
+
+.boostrap__left-side h1,.offical__left-side h1{
+    font-size: 48px;
+    margin-top: 5%;
+    font-weight: lighter;
+}
+
+
+.boostrap__left-side p,.offical__left-side p{
+    margin-top: 3%;
+    font-size: 17px;
+    line-height: 37px;
+
+}
+
+.boostrap__left-side button{
+    width: 15vw;
+}
+
+
+
+/* boostrap right side part_____________ */
+
+
+.boostrap__right-side{
+    width: 40%;
+    height: 30vw;
+    margin-top: 6%;
+    
+}
+
+.boostrap__right-side img,.offical__right-side img{
+    width: 40vw;
+    height: 30vw;
+}
+
+
+/* offical theme part_____________ */
+
+
+.offical-theame{
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* officlal theame left side part________ */
+
+
+.offical__left-side{
+    width: 40%;
+    height: 30vw;
+}
+
+.offical__left-side img{
+    width: 73px;
+    height: 70px;
+}
+
+
+/* officla theam right side part_______________ */
+
+
+
+.offical__right-side{
+    width: 40%;
+    height: 30vw;
+    /* background-color: blue; */
+}
+
+
+.offical__right-side img{
+    margin-top: 8%;
+}
+
+
+/* fotter part_______________ */
+
+
+footer{
+    width: 100%;
+    height: 30vw;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ul,.ul-one{
+    width: 15vw;
+    height: 10vw;
+  
+}
+
+.ul ul,.ul-one ul{
+    list-style: none;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.ul ul li:hover,.ul-one ul li:hover{
+    color: blue;
+}
+
+.ul-one{
+    width: 23vw;
+}
